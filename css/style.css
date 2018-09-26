@@ -86,7 +86,7 @@ h1#left-app-bar img {
     bottom: 0;
 }
 
-h1 a {
+h1 a{
     /* #6 #channels fix the #link color in app bar*/
     color: white;
 }
@@ -129,8 +129,8 @@ li .channel-meta {
     top: 12px;
 }
 
-li img {
-    vertical-align: middle;
+li i{
+    line-height: inherit;
 }
 
 li.selected {
@@ -172,9 +172,10 @@ li.selected {
     border-bottom: 4px solid #3F51B5;
 }
 
-#tab-bar button img {
+#tab-bar button i{
     display: block;
     margin: 0 auto 4px auto;
+    font-size: 24px;
 }
 
 /* #5 CHAT BAR */
@@ -269,4 +270,8 @@ li.selected {
 
 .message.own {
     margin-left: 17.5%;
+}
+
+.fa, .far, .fas{
+    font-size: 24px;
 }
